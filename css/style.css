@@ -4,7 +4,8 @@
 .navbar-brand img {
   height: 50px;
   width: auto;
-  margin: 0 auto; }
+  margin: 0 auto;
+  filter: brightness 2.5; }
 
 body {
   background-color: #373a3c;

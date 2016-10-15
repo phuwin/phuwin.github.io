@@ -1,0 +1,27 @@
+.navbar {
+  border-radius: 0; }
+
+.navbar-brand img {
+  height: 50px;
+  width: auto;
+  margin: 0 auto; }
+
+body {
+  background-color: #373a3c;
+  color: white;
+  font-size: 20px; }
+
+h1, h2, h3, h4 {
+  color: #ff3300; }
+
+a, a:hover, a:visited, a:focus {
+  color: white;
+  text-decoration: none; }
+
+.fa-li {
+  color: #ff3300; }
+
+#phu, #content {
+  display: none; }
+
+/*# sourceMappingURL=style.css.map */

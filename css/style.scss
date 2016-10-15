@@ -1,0 +1,32 @@
+
+$mainColor:#ff3300;
+$secondaryColor:#373a3c;
+$mainSecondaryColor:white;
+.navbar {
+	border-radius:0;
+}
+.navbar-brand{	
+	img {
+		height: 50px;
+		width:auto;
+		margin: 0 auto;
+	}
+}	
+body {
+	background-color:#373a3c;
+	color:$mainSecondaryColor;
+	font-size:20px;
+}
+h1,h2,h3,h4 {
+	color:$mainColor;
+}
+a, a:hover, a:visited, a:focus {
+	color:$mainSecondaryColor;
+	text-decoration:none;
+}
+.fa-li{
+	color:$mainColor;
+}
+#phu, #content {
+	display:none;
+}

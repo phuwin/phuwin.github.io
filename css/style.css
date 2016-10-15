@@ -12,14 +12,14 @@ body {
   font-size: 20px; }
 
 h1, h2, h3, h4 {
-  color: #ff3300; }
+  color: orange; }
 
 a, a:hover, a:visited, a:focus {
   color: white;
   text-decoration: none; }
 
 .fa-li {
-  color: #ff3300; }
+  color: orange; }
 
 #content {
   display: none; }

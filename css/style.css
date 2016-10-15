@@ -5,7 +5,7 @@
   height: 50px;
   width: auto;
   margin: 0 auto;
-  filter: brightness 2.5; }
+  filter: brightness(3); }
 
 body {
   background-color: #373a3c;

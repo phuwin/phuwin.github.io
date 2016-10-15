@@ -1,18 +1,17 @@
 $(function(){	
-	displayPhu(displayContent);
+	displayPhu();
 
-
+	displayContent();
 });
 
-function displayPhu (callback) {
+function displayPhu () {
 	$('#phu').show();
 	$('#phu').animate({ opacity: 0 }, 0);
-	$('#phu').animate({ opacity: 1, top: "-1000px" }, 500);
-	if (callback) callback();
+	$('#phu').animate({ opacity: 1 }, 2000);
 }
 
 function displayContent() {
 	$('#content').show();
 	$('#content').animate({ opacity: 0 }, 0);
-	$('#content').animate({ opacity: 1, top: "-10px" }, 500);
+	$('#content').animate({ opacity: 1 }, 2000);
 }

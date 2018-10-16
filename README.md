@@ -1,6 +1,6 @@
 # oma-sivu
 
-> A Vue.js project
+> My personal page.
 
 ## Build Setup
 

@@ -12,6 +12,9 @@
 </template>
 
 <script>
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 import Header from '@/components/Header.vue'
 import Hero from '@/components/Hero.vue'
 import logo from '@/assets/logo.png'
@@ -31,12 +34,14 @@ export default {
       heroText: [
         'Hi',
         'I am Phu.',
-        'I code webs and mobile apps.',
-        'I know javascript, html, and css.'
+        'I make webs and mobile apps.'
       ],
       heroSrc: hero,
       iconSrc: logo
     }
+  },
+  created () {
+    AOS.init()
   }
 }
 </script>
@@ -46,6 +51,6 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  margin-top:64px;
 }
 </style>

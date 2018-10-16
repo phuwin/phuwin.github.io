@@ -1,5 +1,5 @@
 <template>
-  <v-toolbar>
+  <v-toolbar fixed>
     <v-toolbar-side-icon >
       <img :src='iconSrc' :alt="iconAlt" height="25">
     </v-toolbar-side-icon>
@@ -17,3 +17,6 @@ export default {
   }
 }
 </script>
+<style >
+</style>
+

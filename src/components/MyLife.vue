@@ -36,18 +36,21 @@ export default {
 <style scoped>
 
 @media (min-width: 960px) {
-  .life-event-container {
-    text-align:right;
-    padding:10px;
-  }
   .right {
     margin-left:50%;
-    text-align:left;
-  }
-  .white {
-    color:black;
   }
 }
+.life-event-container {
+  padding:10px;
+  text-align:right;
+}
+.white {
+  color:black;
+}
+.right {
+  text-align: left;
+}
+
 
 </style>
 

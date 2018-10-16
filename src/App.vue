@@ -3,6 +3,7 @@
     <my-header :iconSrc="iconSrc" :title="pageTitle" :iconAlt="pageTitle"></my-header>
     <my-hero :backgroundSrc="heroSrc" :title="heroTitle" :texts="heroText"></my-hero>
     <my-life></my-life>
+    <my-skills></my-skills>
     <v-footer class="pa-3 text-xs-center" align-center>
       <v-layout align-center justify-center>
         {{pageTitle}} &copy; {{ new Date().getFullYear() }}
@@ -20,12 +21,14 @@ import Hero from '@/components/Hero.vue'
 import logo from '@/assets/logo.png'
 import hero from '@/assets/hero.jpeg'
 import MyLife from '@/components/MyLife.vue'
+import MySkills from '@/components/MySkills.vue'
 export default {
   name: 'app',
   components: {
     'my-header': Header,
     'my-hero': Hero,
-    'my-life': MyLife
+    MyLife,
+    MySkills
   },
   data () {
     return {

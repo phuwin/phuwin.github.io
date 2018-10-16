@@ -6,15 +6,5 @@ class LifeEvent {
     this.endTime = endTime
     this.place = place
   }
-
-  get information () {
-    return {
-      title: this.title,
-      text: this.text,
-      time: this.time,
-      place: this.place,
-      endTime: this.endTime
-    }
-  }
 }
 export default LifeEvent

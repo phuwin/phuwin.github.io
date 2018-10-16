@@ -1,6 +1,6 @@
 <template>
   <v-content id="hero">
-    <v-parallax :src="backgroundSrc" height="500" >
+    <v-parallax height="200" >
       <v-layout column align-center justify-center class="white--text">
         <section>
           <vue-typer :text='texts' erase-style='backspace' :erase-delay='50'></vue-typer>

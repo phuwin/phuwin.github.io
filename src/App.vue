@@ -1,7 +1,7 @@
 <template>
   <v-app dark>
     <my-header :iconSrc="iconSrc" :title="pageTitle" :iconAlt="pageTitle"></my-header>
-    <my-hero :backgroundSrc="heroSrc" :title="heroTitle" :texts="heroText"></my-hero>
+    <my-hero :title="heroTitle" :texts="heroText"></my-hero>
     <my-life></my-life>
     <my-skills></my-skills>
     <my-quote></my-quote>

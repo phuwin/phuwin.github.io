@@ -19,7 +19,6 @@ new Vue({
   components: { App },
   template: '<App/>',
   created () {
-    console.log(this.$ga)
     this.$ga.page('/')
   }
 })

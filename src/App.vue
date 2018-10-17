@@ -4,6 +4,8 @@
     <my-hero :backgroundSrc="heroSrc" :title="heroTitle" :texts="heroText"></my-hero>
     <my-life></my-life>
     <my-skills></my-skills>
+    <my-quote></my-quote>
+    <contact-form></contact-form>
     <v-footer class="pa-3 text-xs-center" align-center>
       <v-layout align-center justify-center>
         {{pageTitle}} &copy; {{ new Date().getFullYear() }}
@@ -15,20 +17,23 @@
 <script>
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-
-import Header from '@/components/Header.vue'
-import Hero from '@/components/Hero.vue'
+import Header from '@/components/Header'
+import Hero from '@/components/Hero'
 import logo from '@/assets/logo.png'
 import hero from '@/assets/hero.jpeg'
-import MyLife from '@/components/MyLife.vue'
-import MySkills from '@/components/MySkills.vue'
+import MyLife from '@/components/MyLife'
+import MySkills from '@/components/MySkills'
+import MyQuote from '@/components/MyQuote'
+import ContactForm from '@/components/ContactForm'
 export default {
   name: 'app',
   components: {
     'my-header': Header,
     'my-hero': Hero,
     MyLife,
-    MySkills
+    MySkills,
+    MyQuote,
+    ContactForm
   },
   data () {
     return {
@@ -44,7 +49,7 @@ export default {
     }
   },
   created () {
-    AOS.init()
+    AOS.init({once: 1})
   }
 }
 </script>

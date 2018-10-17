@@ -1,5 +1,5 @@
 <template>
-  <v-progress-circular :rotate="90" :size="120" :width="20" :value="value" :color="skill.color">
+  <v-progress-circular :rotate="90" :size="120" :width="10" :value="value" :color="skill.color">
     {{ skill.title }}
   </v-progress-circular>
 </template>
@@ -30,3 +30,9 @@ export default {
   }
 }
 </script>
+<style scoped>
+  .v-progress-circular >>> .v-progress-circular__info {
+    font-size:15px;
+  }
+</style>
+

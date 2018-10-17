@@ -20,14 +20,17 @@ export default {
     return {
       skills: [
         new Skill('Javascript', 91, 'yellow'),
-        new Skill('HTML', 90, '#F16529'),
-        new Skill('CSS', 80, '#34A3DB'),
+        new Skill('HTML 5', 90, '#F16529'),
+        new Skill('CSS 3', 80, '#34A3DB'),
+        new Skill('Bootstrap', 90, '#8252CE'),
         new Skill('PHP', 60, '#777BB2'),
         new Skill('AngularJs', 69, '#D71D33'),
         new Skill('Wordpress', 69, '#1A6E94'),
-        new Skill('Vue', 50, '#4FC08D')
-      ],
-      shown: false
+        new Skill('Vue', 55, '#4FC08D'),
+        new Skill('NodeJs', 60, '#76AD5F'),
+        new Skill('MongoDB', 55, '#49A347'),
+        new Skill('MySQL', 55, '#F7F7F7')
+      ]
     }
   },
   props: {

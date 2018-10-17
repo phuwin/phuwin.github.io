@@ -23,7 +23,7 @@ export default {
 </script>
 <style scoped>
   .vue-typer >>> *{
-    color:white ;
+    color:white !important;
     font-size:50px;
   }
   @media screen and (max-width:959px) {

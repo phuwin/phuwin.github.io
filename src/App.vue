@@ -62,6 +62,11 @@ export default {
   margin-top:64px;
   font-size:20px;
 }
+@media screen and (max-width:959px) {
+  #app {
+    margin-top:48px;
+  }
+}
 .white {
   color:black !important;
 }

@@ -65,6 +65,7 @@ export default {
 @media screen and (max-width:959px) {
   #app {
     margin-top:48px;
+    font-size:15px;
   }
 }
 .white {

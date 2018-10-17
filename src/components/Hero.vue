@@ -26,6 +26,11 @@ export default {
     color:white ;
     font-size:50px;
   }
+  @media screen and (max-width:959px) {
+    .vue-typer >>> *{
+      font-size:20px;
+    }
+  }
   .vue-typer >>> .caret {
     background-color:white;
   }

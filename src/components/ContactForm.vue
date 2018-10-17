@@ -102,5 +102,11 @@
   #recaptcha {
     margin:15px 0px;
   }
+  @media screen and (max-width:350px){
+    #recaptcha {
+      transform:scale(.95);
+      transform-origin: left;
+    }
+  }
 </style>
 

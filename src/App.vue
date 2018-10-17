@@ -20,7 +20,6 @@ import 'aos/dist/aos.css'
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import logo from '@/assets/logo.png'
-import hero from '@/assets/hero.jpeg'
 import MyLife from '@/components/MyLife'
 import MySkills from '@/components/MySkills'
 import MyQuote from '@/components/MyQuote'
@@ -44,7 +43,6 @@ export default {
         'I am Phu.',
         'I make webs and mobile apps.'
       ],
-      heroSrc: hero,
       iconSrc: logo
     }
   },

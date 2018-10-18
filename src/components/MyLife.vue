@@ -26,7 +26,7 @@ export default {
         new LifeEvent('Born', '', '13th August, 1995', 'Hai Phong, Vietnam'),
         new LifeEvent('Moved to Saigon', '', '1998', ''),
         new LifeEvent('Studied abroad', 'University of Applied Sciences', '2013', 'Lahti, Finland'),
-        new LifeEvent('Graduated', 'Average of 4.25', 'December 2016', 'Lahti University of Applied Sciences'),
+        new LifeEvent('Graduated', 'Average of 4.25/5', 'December 2016', 'Lahti University of Applied Sciences'),
         new LifeEvent('Software Developer', 'Making websites and mobile applications', 'August 2015', 'SuperApp Oy', 'present')
       ]
     }

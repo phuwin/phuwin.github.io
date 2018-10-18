@@ -53,8 +53,9 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css?family=K2D:400,400i,700');
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'K2D', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin-top:64px;

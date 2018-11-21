@@ -4,6 +4,9 @@
       <v-layout column align-center justify-center class="white--text">
         <section>
           <vue-typer :text='texts' erase-style='backspace' :erase-delay='50'></vue-typer>
+          <div id="cv">
+            Download my <a href="./static/PhuNguyenCV_21112018.pdf">CV</a>
+          </div>
         </section>
       </v-layout>
     </v-parallax>
@@ -33,6 +36,12 @@ export default {
   }
   .vue-typer >>> .caret {
     background-color:white;
+  }
+  #cv {
+    text-align: center;
+  }
+  #cv a {
+    color:orangered
   }
 </style>
 

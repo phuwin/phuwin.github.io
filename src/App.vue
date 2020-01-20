@@ -5,7 +5,6 @@
     <my-life></my-life>
     <my-skills></my-skills>
     <my-quote></my-quote>
-    <contact-form></contact-form>
     <v-footer class="pa-3 text-xs-center" align-center>
       <v-layout align-center justify-center>
         {{pageTitle}} &copy; {{ new Date().getFullYear() }}

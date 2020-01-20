@@ -25,11 +25,12 @@ export default {
         new Skill('Bootstrap', 90, '#8252CE'),
         new Skill('PHP', 60, '#777BB2'),
         new Skill('AngularJs', 69, '#D71D33'),
-        new Skill('Wordpress', 69, '#1A6E94'),
-        new Skill('Vue', 55, '#4FC08D'),
-        new Skill('NodeJs', 60, '#76AD5F'),
+        new Skill('Wordpress', 79, '#1A6E94'),
+        new Skill('Vue', 85, '#4FC08D'),
+        new Skill('NodeJs', 75, '#76AD5F'),
         new Skill('MongoDB', 55, '#49A347'),
-        new Skill('MySQL', 55, '#F7F7F7')
+        new Skill('MySQL', 75, '#F7F7F7'),
+        new Skill('AWS', 45, '#76AD5F')
       ]
     }
   },
